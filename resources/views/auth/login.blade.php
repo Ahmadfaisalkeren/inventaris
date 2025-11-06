@@ -35,13 +35,13 @@
           </div>
         </div>
         <!-- /.col -->
-        <div class="col-xs-4">
+        {{-- <div class="col-xs-4">
                 @if (Route::has('password.request'))
                     <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
                         {{ __('Lupa Password?') }}
                     </a>
                 @endif
-        </div>
+        </div> --}}
         <div class="col-xs-4">
           <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
         </div>
